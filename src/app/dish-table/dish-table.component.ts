@@ -14,7 +14,7 @@ export class DishTableComponent implements AfterViewInit, OnInit {
   dataSource: DishTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['name', 'price'];
 
   ngOnInit() {
     this.dataSource = new DishTableDataSource();
