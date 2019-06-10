@@ -13,10 +13,10 @@ export class MainDashComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'A la carte', cols: 2, rows: 1 },
+          { title: 'Les burgers', cols: 2, rows: 1 },
+          { title: 'Les Crêpes', cols: 2, rows: 1 },
+          { title: 'Les pizzas', cols: 2, rows: 1 }
         ];
       }
 
